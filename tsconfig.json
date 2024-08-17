@@ -19,6 +19,6 @@
     "resolveJsonModule": true,
     "incremental": true
   },
-  "include": ["apps/**/*", "packages/**/*", "e2e/**/*.ts", "playwright.config.ts"],
+  "include": ["apps/**/*", "packages/**/*"],
   "exclude": ["node_modules"]
 }
