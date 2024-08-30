@@ -1,6 +1,8 @@
 name: Five Minute Scheduler
 
 on:
+  pull_request:
+    types: [opened, reopened]
   schedule:
     # 매 5분마다 실행
     - cron: "*/5 * * * *"
